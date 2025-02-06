@@ -1,5 +1,9 @@
 # HBOX Remote loop control Project Notes
 
+## Introduction
+
+This Guide has been written to aid in the setup of HNC HBOX equipment to write and read variables through the Cloud Data Center. The author is not an expert on these devices and has forged through the available documentation and help to achieve the task. I cannot comment on the security of IoT Cloud other than to say the communication and pairing of devices seems to have reasonable levels of security.
+
 ## The IoT Cloud
 
 The IoT Cloud is a cloud based management tool that allows one to manage and monitor multiple devices remotely, either using the Web interface (limited functionality) or using the Device Manager Tool Upload/Download Projects, Change Settings etc.
@@ -8,7 +12,7 @@ The IoT Cloud is a cloud based management tool that allows one to manage and mon
 
 1. Connect to Internet Network by whatever means
 2. Create (or use existing) IoTBus Cloud User account
-   - I would suggest that we establish a Varispeed Device Admin account that can Manage all Devices that Varispeed may be involved with. Associated Group Mailbox in O365. Users can be added to this mailbox for OTP code delivery when needed.
+   - I would suggest that we establish a Company Wide Device Admin account that can Manage all Devices that the Company may be involved with. Associated Group Mailbox in O365. Users can be added to this mailbox for OTP code delivery when needed.
    - Devices are added through mobile app by scanning the QR Code related to each device and logging into the IOT Cloud.
      - It seems this step is necessary to create a AKey or a BKey which is required by cloud.
    - Inside Each project one can add additional users invited by email (user needs an IoTBus Cloud account already).
